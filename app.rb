@@ -14,6 +14,8 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
-  
+    get '/hello' do
+    "Hello World!"
+  end
 
 end
